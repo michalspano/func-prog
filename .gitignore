@@ -1,0 +1,4 @@
+# Ignore the playground file
+# This file is used for testing, practice
+# Treat it as a 'sandbox' environment
+src/playground.hs
