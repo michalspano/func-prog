@@ -2,3 +2,6 @@
 # This file is used for testing, practice
 # Treat it as a 'sandbox' environment
 src/playground.hs
+
+# Exclude macOS binary
+*.DS_Store
