@@ -1,8 +1,32 @@
+# _config.yml
+# fp.michalspano.com/
+# Author: Michal Spano
+# Theme: https://github.com/niklasbuschmann/contrast
+
 remote_theme: niklasbuschmann/contrast@v2.11
 
+title: "FuncProg λ"
+author: "Michal Spano"
+description: "Everything about Functional Programming."
+permalink: /:title/
+lang: "en"
+excerpt_separator: "\n\n\n"
+date_format: "%Y-%B-%d"
+
+show_excerpts: true
+show_frame: true
+show_sidebar: true
+
+navigation: # accepts {file, title, url, icon, sidebaricon}
+  # - {file: "index.html"}
+  - {file: "README.md"}
+
+external:
+  - {title: Mail, icon: envelope, url: "mailto:michalspano03@gmail.com"}
+  - {title: Github, icon: github, url: "https://github.com/michalspano"}
+  - {title: Subscribe, icon: rss, url: "/feed.xml"} # TODO
+
+# Plugins
 plugins:
   - jekyll-remote-theme
-
-# accepts {file, title, url, icon, sidebaricon}
-navigation: 
-  - {file: "README.md"}
+   
