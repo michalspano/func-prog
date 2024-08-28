@@ -10,6 +10,8 @@ structures__, and so forth -- to show, that __FP__ is not only about __pure
 functions__ and __immutable data__ – it's also about another way of thinking
 and approaching problems.
 
-### Table of Contents
+## Local Development
 
-TODO
+```sh
+./dev.sh
+```
