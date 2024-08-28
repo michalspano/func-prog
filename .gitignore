@@ -3,5 +3,13 @@
 # Treat it as a 'sandbox' environment
 src/playground.hs
 
+# Exclude cabal trace
+.ghc.environment.x86_64-darwin-9.4.4
+**/dist-newstyle
+
 # Exclude macOS binary
 *.DS_Store
+
+# Jekyll stuff
+_site
+.jekyll-cache
