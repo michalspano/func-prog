@@ -31,4 +31,4 @@ external:
 plugins:
   - jekyll-remote-theme
 
-exclude: ["src", "_site"] # don't include raw Haskell src, etc.
+exclude: ["src", "_site", "readme.md"] # don't include raw Haskell src, etc.
