@@ -1,5 +1,3 @@
-# GLHF with functors
-
 If functional programming were a theme park, **Functors** would be the friendly ride operators who take your values, lift them gently into a context, and make sure any transformation you apply goes *smoothly and safely*.
 
 In this post, we’re going to explore what functors are, why they matter, and how they relate to that mysterious big sibling of theirs: **Monads**. Don’t worry—we’ll keep it joyful, intuitive, and full of good vibes.

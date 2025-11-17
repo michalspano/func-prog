@@ -5,9 +5,9 @@
 
 remote_theme: niklasbuschmann/contrast@v2.11
 
-title: "FuncProg λ"
+title: "ms@fp"
 author: "Michal Spano"
-description: "Haskell done unironically."
+description: ""
 permalink: /:title/
 excerpt_separator: "\n\n" # How many lines (of the preview) to display?
 date_format: "%Y/%m/%d"
@@ -16,7 +16,7 @@ lang: "en"
 show_excerpts: true
 show_frame: true
 show_sidebar: true
-minimal: false # a minimal preset layout?
+minimal: true
 
 navigation: # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.html"} # home with list of posts
