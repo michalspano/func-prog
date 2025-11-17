@@ -1,3 +1,10 @@
+---
+title: GLHF with Functors
+mathjax: true
+layout: post
+categories: haskell, functors
+---
+
 If functional programming were a theme park, **Functors** would be the friendly ride operators who take your values, lift them gently into a context, and make sure any transformation you apply goes *smoothly and safely*.
 
 In this post, we’re going to explore what functors are, why they matter, and how they relate to that mysterious big sibling of theirs: **Monads**. Don’t worry—we’ll keep it joyful, intuitive, and full of good vibes.
@@ -137,15 +144,4 @@ The flattening step turns nested contexts into a single context:
 
 Monads = Functor + "join" + good intentions
 
----
-
-## Wrapping Up
-
-Functors give functional programming its expressive power by letting you apply transformations inside contexts without breaking their structure. They are everywhere: lists, options, futures, IO—you name it.
-
-And once you’re comfortable with functors, monads feel far less mystical. They’re just functors that also know how to flatten and chain effects.
-
-So next time you see something with a `map` function...
-
-Go forth and map joyfully!
-Functional programming doesn’t have to be scary—it can be *functor-tastic*.
+Go forth and map joyfully! Functional programming doesn’t have to be scary—it can be *functor-tastic*.
